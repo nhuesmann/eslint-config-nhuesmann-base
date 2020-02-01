@@ -6,6 +6,9 @@
   "main": "index.js",
   "license": "MIT",
   "keywords": ["eslint", "eslintconfig"],
+  "repository": {
+    "url": "https://github.com/nhuesmann/eslint-config-nhuesmann-base"
+  },
   "peerDependencies": {
     "eslint": "^6.8.0",
     "@typescript-eslint/eslint-plugin": "^2.18.0",
