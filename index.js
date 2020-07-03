@@ -26,6 +26,7 @@ module.exports = {
   rules: {
     '@typescript-eslint/camelcase': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/interface-name-prefix': 'off',
     '@typescript-eslint/no-empty-function': 'off',
     '@typescript-eslint/no-empty-interface': 'off',
@@ -37,6 +38,7 @@ module.exports = {
       { argsIgnorePattern: '^_[0-9]?' },
     ],
     '@typescript-eslint/no-var-requires': 'off',
+    'camelcase': 'off',
     'consistent-return': 'off',
     'global-require': 'off',
     'import/extensions': 'off',
