@@ -11,17 +11,17 @@ module.exports = {
     'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
   ],
-  // globals: {
-  //   Atomics: 'readonly',
-  //   SharedArrayBuffer: 'readonly',
-  // },
+  globals: {
+    Atomics: 'readonly',
+    SharedArrayBuffer: 'readonly',
+  },
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: 'module',
   },
-  // plugins: ['@typescript-eslint', 'import', 'prettier', 'simple-import-sort'],
-  plugins: ['import', 'simple-import-sort'],
+  plugins: ['@typescript-eslint', 'import', 'prettier', 'simple-import-sort'],
+  // plugins: ['import', 'simple-import-sort'],
   rules: {
     '@typescript-eslint/camelcase': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
