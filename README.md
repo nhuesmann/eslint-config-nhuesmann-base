@@ -1,4 +1,4 @@
-# Base ESLint / Prettier config for new TypeScript projects
+# Base ESLint + Prettier config for new projects
 
 ## Installation
 
